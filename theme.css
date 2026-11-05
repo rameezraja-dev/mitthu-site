@@ -1,0 +1,14 @@
+:root {
+  --mitthu-background: #FAFAF7;
+  --mitthu-surface: #FFFFFF;
+  --mitthu-text: #0C1A12;
+  --mitthu-text-muted: #5A6B5E;
+  --mitthu-primary: #007A55;
+  --mitthu-primary-strong: #006045;
+  --mitthu-hero: #04120C;
+  --mitthu-hero-surface: #061811;
+  --mitthu-on-dark: #FFFFFF;
+  --mitthu-accent-on-dark: #00D492;
+  --mitthu-mint: #D0FAE5;
+  --mitthu-border: #E8E8E3;
+}

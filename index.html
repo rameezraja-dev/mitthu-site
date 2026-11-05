@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mitthu — A small companion for chores and weekends</title>
+  <meta name="description" content="Mitthu is an Android AI companion in development. It turns conversations about chores and weekends into reminders and plans you can see, edit and trust.">
+  <meta name="theme-color" content="#04120C">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="brand" href="#top">Mitthu</a>
+    <nav aria-label="Sections">
+      <a href="#why">Why</a>
+      <a href="#how">How it works</a>
+      <a href="#demo">Demo</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+    <a class="btn btn-small btn-accent" href="https://github.com/rameezraja-dev/Mitthu">GitHub</a>
+  </header>
+
+  <main id="main">
+    <section class="hero dark" id="top">
+      <div class="hero-copy">
+        <p class="pill"><span class="dot" aria-hidden="true"></span>In development · Android first</p>
+        <h1>Meet<br><em>Mitthu.</em></h1>
+        <p class="lede">A small companion for your chores and weekends.</p>
+        <p class="sub">Talk it through like you would with a friend. Mitthu turns what you agree on into reminders and plans you can see, edit and trust — even when the AI is offline.</p>
+        <div class="actions">
+          <a class="btn btn-accent" href="https://github.com/rameezraja-dev/Mitthu">Follow the build</a>
+          <a class="btn btn-ghost" href="#demo">See it wake up</a>
+        </div>
+      </div>
+
+      <div class="device-wrap">
+        <div class="device" data-face aria-hidden="true">
+          <div class="face">
+            <span class="eye"><span class="pupil"></span></span>
+            <span class="eye"><span class="pupil"></span></span>
+            <span class="beak"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <p class="eyebrow">Why Mitthu?</p>
+      <h2>A friendly face,<br>with a <em>good memory</em> for chores.</h2>
+      <div class="two-col">
+        <p>Most assistants are good at talking and forgetful about doing. Mitthu is built the other way round: the conversation is the easy part, and every reminder or plan it suggests becomes a real record on your phone.</p>
+        <p>You approve each one. You can open it, change it, snooze it or delete it with ordinary forms. Mitthu never claims a reminder is set unless Android has actually scheduled it.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="how">
+      <p class="eyebrow">How it works</p>
+      <h2>From a chat to a<br><em>real reminder.</em></h2>
+      <ol class="steps">
+        <li>
+          <span class="step-n">1</span>
+          <h3>You say it</h3>
+          <p>“Remind me to water the plants every Sunday morning.” Type it, or hold to talk.</p>
+        </li>
+        <li>
+          <span class="step-n">2</span>
+          <h3>Mitthu drafts it</h3>
+          <p>A draft chore appears with a time, timezone and repeat rule. Anything unclear stays a draft until you fix it.</p>
+        </li>
+        <li>
+          <span class="step-n">3</span>
+          <h3>You approve, it's scheduled</h3>
+          <p>The chore is saved on your device and you see its true status: scheduled, needs permission, or failed.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section dark demo" id="demo">
+      <div class="demo-copy">
+        <p class="eyebrow">Interactive demo</p>
+        <h2>See Mitthu<br><em>wake up.</em></h2>
+        <p>Every mood the app will show has a clear label, so you never have to guess what Mitthu is doing. Move your pointer over the screen — the eyes follow.</p>
+        <div class="states" role="group" aria-label="Companion state">
+          <button type="button" data-state="sleeping" aria-pressed="true">Sleeping</button>
+          <button type="button" data-state="idle" aria-pressed="false">Idle</button>
+          <button type="button" data-state="listening" aria-pressed="false">Listening</button>
+          <button type="button" data-state="thinking" aria-pressed="false">Thinking</button>
+          <button type="button" data-state="speaking" aria-pressed="false">Speaking</button>
+        </div>
+        <p class="note">An animation preview of the planned interface, not the running app.</p>
+      </div>
+      <div class="device-wrap">
+        <div class="device big is-sleeping" data-face data-demo>
+          <div class="face">
+            <span class="eye"><span class="pupil"></span></span>
+            <span class="eye"><span class="pupil"></span></span>
+            <span class="beak"></span>
+          </div>
+          <p class="bubble" aria-live="polite"></p>
+          <p class="status-label"><span class="dot" aria-hidden="true"></span><span data-label>Sleeping</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Personality</p>
+      <h2>It has a few<br><em>things to say.</em></h2>
+      <ul class="quotes">
+        <li>“Bins go out tonight.”</li>
+        <li>“Laundry's at six. Want to push it to seven?”</li>
+        <li>“Saturday looks free after lunch.”</li>
+        <li>“You said you liked that walk by the lake.”</li>
+      </ul>
+      <p class="note dark-note">Sample lines for tone. Real replies depend on the model you connect.</p>
+    </section>
+
+    <section class="section alt">
+      <p class="eyebrow">What's planned</p>
+      <h2>Everything it<br><em>will be.</em></h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Chores &amp; reminders</h3>
+          <p>One-time, daily and weekly chores with a visible next reminder, snooze and completion history.</p>
+        </article>
+        <article class="card">
+          <h3>Weekend planner</h3>
+          <p>Pick your dates and free time. Get an editable, dated plan — your manual edits are never overwritten.</p>
+        </article>
+        <article class="card">
+          <h3>Memory you control</h3>
+          <p>Mitthu remembers only what you choose to save. See it, edit it, delete it.</p>
+        </article>
+        <article class="card">
+          <h3>Text first, voice optional</h3>
+          <p>Push-to-talk and spoken replies, with typing always available as a fallback.</p>
+        </article>
+        <article class="card">
+          <h3>Works without the AI</h3>
+          <p>Chores and plans live in a local database and stay editable offline.</p>
+        </article>
+        <article class="card">
+          <h3>Phone &amp; tablet</h3>
+          <p>On a tablet, Mitthu can sit beside your task. Large text and reduced motion are supported.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="roadmap">
+      <p class="eyebrow">Roadmap</p>
+      <h2>Built in<br><em>small, honest steps.</em></h2>
+      <ol class="roadmap">
+        <li class="now"><strong>M0</strong><span>Prove reminders arrive on real Android devices</span><em>Next</em></li>
+        <li><strong>M1</strong><span>App foundation, design system and chore forms</span></li>
+        <li><strong>M2</strong><span>Dependable chore loop: repeat, snooze, complete</span></li>
+        <li><strong>M3</strong><span>Companion face and text conversation</span></li>
+        <li><strong>M4</strong><span>Weekend plans and approved memory</span></li>
+        <li><strong>M5</strong><span>Optional voice and a personal pilot</span></li>
+      </ol>
+    </section>
+
+    <section class="cta dark">
+      <h2>Not ready yet.<br><em>Worth watching.</em></h2>
+      <p>Mitthu is being built in the open. Star the repository to follow along.</p>
+      <a class="btn btn-accent" href="https://github.com/rameezraja-dev/Mitthu">Star on GitHub</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Mitthu</strong> · An original Android companion project.</p>
+    <p><a href="https://github.com/rameezraja-dev/Mitthu">GitHub</a> · <a href="https://github.com/rameezraja-dev/Mitthu/blob/main/docs/plans/2026-11-05-mitthu-project-plan.md">Project plan</a></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
