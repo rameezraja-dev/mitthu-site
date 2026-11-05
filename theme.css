@@ -11,4 +11,23 @@
   --mitthu-accent-on-dark: #00D492;
   --mitthu-mint: #D0FAE5;
   --mitthu-border: #E8E8E3;
+  --mitthu-companion-background: #020C08;
+  --mitthu-companion-surface: #07170F;
+  --mitthu-companion-surface-pressed: #0C2219;
+  --mitthu-companion-chip: #0F2A1F;
+  --mitthu-companion-border: #1F3D2F;
+  --mitthu-companion-border-soft: #173326;
+  --mitthu-companion-divider: #0D2018;
+  --mitthu-companion-grabber: #25463A;
+  --mitthu-companion-text: #D3F9E6;
+  --mitthu-companion-accent: #3DD598;
+  --mitthu-companion-accent-pressed: #5FE6AE;
+  --mitthu-companion-on-accent: #02140C;
+  --mitthu-companion-beak: #4CDFA2;
+  --mitthu-companion-beak-lower: #2EBF84;
+  --mitthu-companion-tongue: #E86E7B;
+  --mitthu-companion-blush: #FF8E8E;
+  --mitthu-companion-warning: #F2A65A;
+  --mitthu-companion-track-off: #1A3328;
+  --mitthu-companion-knob-off: #6F8F81;
 }
