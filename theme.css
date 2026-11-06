@@ -36,4 +36,19 @@
   --mitthu-error-on-light: #B3322E;
   --mitthu-success-on-dark: #3DD598;
   --mitthu-success-on-light: #007A55;
+  --mitthu-dark-background: #020C08;
+  --mitthu-dark-surface: #07170F;
+  --mitthu-dark-surface-high: #0C2219;
+  --mitthu-dark-surface-highest: #0F2A1F;
+  --mitthu-dark-text: #D3F9E6;
+  --mitthu-dark-text-muted: #8FB3A2;
+  --mitthu-dark-primary: #3DD598;
+  --mitthu-dark-on-primary: #02140C;
+  --mitthu-dark-outline: #6F8F81;
+  --mitthu-dark-outline-variant: #1F3D2F;
+  --mitthu-dark-error-container: #5C1F1D;
+  --mitthu-dark-on-error-container: #FFDAD6;
+  --mitthu-dark-inverse-surface: #D3F9E6;
+  --mitthu-dark-inverse-on-surface: #02140C;
+  --mitthu-dark-inverse-primary: #006045;
 }
