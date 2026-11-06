@@ -24,7 +24,6 @@
       <a href="#demo">Demo</a>
       <a href="#roadmap">Roadmap</a>
     </nav>
-    <a class="btn btn-small btn-accent" href="https://github.com/rameezraja-dev/Mitthu">GitHub</a>
   </header>
 
   <main id="main">
@@ -35,8 +34,7 @@
         <p class="lede">A small companion for your chores and weekends.</p>
         <p class="sub">Talk it through like you would with a friend. Mitthu is being built to turn what you agree on into reminders and plans you can see, edit and trust — even when the AI is offline.</p>
         <div class="actions">
-          <a class="btn btn-accent" href="https://github.com/rameezraja-dev/Mitthu">Follow the build</a>
-          <a class="btn btn-ghost" href="#demo">See it wake up</a>
+          <a class="btn btn-accent" href="#demo">See it wake up</a>
         </div>
       </div>
 
@@ -61,24 +59,24 @@
     </section>
 
     <section class="section alt" id="how">
-      <p class="eyebrow">How it will work</p>
+      <p class="eyebrow">How it works</p>
       <h2>From a chat to a<br><em>real reminder.</em></h2>
-      <p class="note dark-note">Conversation is in development. Today you create chores with a form, and their reminders already work this way.</p>
+      <p class="note dark-note">Text conversation works in the current build, which is not released yet: tap the face, then type. Nothing is saved until you tap Add chore. So far it has been tried on one phone.</p>
       <ol class="steps">
         <li>
           <span class="step-n">1</span>
           <h3>You say it</h3>
-          <p>“Remind me to water the plants every Sunday morning.” Type it, or later, hold to talk.</p>
+          <p>“Remind me to water the plants every Sunday morning.” Tap the face and type it. Voice comes later.</p>
         </li>
         <li>
           <span class="step-n">2</span>
           <h3>Mitthu drafts it</h3>
-          <p>A draft chore appears with a time, timezone and repeat rule. Anything unclear stays a draft until you fix it.</p>
+          <p>Mitthu replies with one short question and, when you mention a chore, a card with three choices: Add chore, Edit first or Not now.</p>
         </li>
         <li>
           <span class="step-n">3</span>
-          <h3>You approve, it's scheduled</h3>
-          <p>The chore is saved on your device and you see its true status: scheduled, needs permission, or failed.</p>
+          <h3>You approve, it's saved</h3>
+          <p>Tap Add chore and it is saved on your device, with its true status: scheduled, needs permission, or failed. If the save fails, Mitthu says so.</p>
         </li>
       </ol>
     </section>
@@ -87,7 +85,7 @@
       <div class="demo-copy">
         <p class="eyebrow">Interactive demo</p>
         <h2>See Mitthu<br><em>wake up.</em></h2>
-        <p>Every mood the app will show has a clear label, so you never have to guess what Mitthu is doing. Move your pointer over the screen — the eyes follow.</p>
+        <p>Every mood the face shows has a clear label, so you never have to guess what Mitthu is doing. Move your pointer over the screen — the eyes follow.</p>
         <div class="states" role="group" aria-label="Companion state">
           <button type="button" data-state="sleeping" aria-pressed="true">Sleeping</button>
           <button type="button" data-state="idle" aria-pressed="false">Idle</button>
@@ -95,7 +93,7 @@
           <button type="button" data-state="thinking" aria-pressed="false">Thinking</button>
           <button type="button" data-state="speaking" aria-pressed="false">Speaking</button>
         </div>
-        <p class="note">An animation preview of the planned interface, not the running app.</p>
+        <p class="note">An animation preview, not the running app. Listening and Speaking arrive with voice.</p>
       </div>
       <div class="device-wrap">
         <div class="device big is-sleeping" data-face data-demo>
@@ -119,36 +117,36 @@
         <li>“Saturday looks free after lunch.”</li>
         <li>“You said you liked that walk by the lake.”</li>
       </ul>
-      <p class="note dark-note">Sample lines for tone. Real replies depend on the model you connect.</p>
+      <p class="note dark-note">Sample lines for tone, not real replies. Memory and weekend plans are not built yet. Real replies depend on the AI provider and model you pick, using your own API key.</p>
     </section>
 
     <section class="section alt">
-      <p class="eyebrow">What's planned</p>
-      <h2>Everything it<br><em>will be.</em></h2>
+      <p class="eyebrow">What it does</p>
+      <h2>Built now,<br><em>and what's next.</em></h2>
       <div class="grid">
         <article class="card">
           <h3>Chores &amp; reminders</h3>
           <p>One-time, daily and weekly chores with a visible next reminder, snooze and completion history.</p>
         </article>
         <article class="card">
-          <h3>Weekend planner</h3>
-          <p>Pick your dates and free time. Get an editable, dated plan — your manual edits are never overwritten.</p>
+          <h3>Text conversation</h3>
+          <p>Tap the face and type. Mitthu answers briefly and offers a card; nothing is saved until you tap Add chore.</p>
         </article>
         <article class="card">
-          <h3>Memory you control</h3>
-          <p>Mitthu remembers only what you choose to save. See it, edit it, delete it.</p>
-        </article>
-        <article class="card">
-          <h3>Text first, voice optional</h3>
-          <p>Push-to-talk and spoken replies, with typing always available as a fallback.</p>
+          <h3>Your AI, your key</h3>
+          <p>Choose Gemini (the default), OpenAI, NVIDIA or OpenRouter in Settings. Your API key is stored encrypted on the phone and checked with the provider before it is saved.</p>
         </article>
         <article class="card">
           <h3>Works without the AI</h3>
-          <p>Chores and plans live in a local database and stay editable offline.</p>
+          <p>With no AI or key, chores still work through the forms.</p>
         </article>
         <article class="card">
-          <h3>Phone &amp; tablet</h3>
-          <p>On a tablet, Mitthu can sit beside your task. Large text and reduced motion are supported.</p>
+          <h3>Weekend plans &amp; memory</h3>
+          <p>Planned. Pick your dates and free time for an editable plan, and let Mitthu remember only what you choose to save.</p>
+        </article>
+        <article class="card">
+          <h3>Voice, later</h3>
+          <p>Planned. Push-to-talk and spoken replies, with typing always available.</p>
         </article>
       </div>
     </section>
@@ -160,22 +158,20 @@
         <li><strong>M0</strong><span>Prove reminders arrive on real Android devices</span><em>Phone checks open</em></li>
         <li><strong>M1</strong><span>App foundation, design system and chore forms</span><em>Built</em></li>
         <li><strong>M2</strong><span>Dependable chore loop: repeat, snooze, complete</span><em>Built</em></li>
-        <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Face built · Next</em></li>
+        <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Text conversation built (M3a) · Streaming and history next</em></li>
         <li><strong>M4</strong><span>Weekend plans and approved memory</span></li>
         <li><strong>M5</strong><span>Optional voice and a personal pilot</span></li>
       </ol>
     </section>
 
     <section class="cta dark">
-      <h2>Not ready yet.<br><em>Worth watching.</em></h2>
-      <p>Mitthu is being built in the open. Star the repository to follow along.</p>
-      <a class="btn btn-accent" href="https://github.com/rameezraja-dev/Mitthu">Star on GitHub</a>
+      <h2>Not released yet.<br><em>Worth watching.</em></h2>
+      <p>Mitthu is still in development and there is no download yet. This page is updated as each step is built.</p>
     </section>
   </main>
 
   <footer class="footer">
-    <p><strong>Mitthu</strong> · An original Android companion project.</p>
-    <p><a href="https://github.com/rameezraja-dev/Mitthu">GitHub</a> · <a href="https://github.com/rameezraja-dev/Mitthu/blob/main/docs/plans/2026-11-05-mitthu-project-plan.md">Project plan</a></p>
+    <p><strong>Mitthu</strong> · An original Android companion project. Not yet available to download.</p>
   </footer>
 
   <script src="main.js"></script>

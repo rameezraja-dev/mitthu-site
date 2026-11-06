@@ -18,7 +18,7 @@ const lines = {
   idle: "Hi! Anything on your list today?",
   listening: "I'm listening…",
   thinking: "Drafting a reminder for Sunday, 9:00…",
-  speaking: "Done. Water the plants, every Sunday at 9. Want to check it?",
+  speaking: "Water the plants, every Sunday at 9? Tap Add chore to save it.",
 };
 
 document.querySelectorAll("[data-state]").forEach((btn) => {
