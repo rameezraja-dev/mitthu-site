@@ -30,4 +30,10 @@
   --mitthu-companion-warning: #F2A65A;
   --mitthu-companion-track-off: #1A3328;
   --mitthu-companion-knob-off: #6F8F81;
+  --mitthu-warning-on-dark: #F2A65A;
+  --mitthu-warning-on-light: #8A5300;
+  --mitthu-error-on-dark: #E5726F;
+  --mitthu-error-on-light: #B3322E;
+  --mitthu-success-on-dark: #3DD598;
+  --mitthu-success-on-light: #007A55;
 }
