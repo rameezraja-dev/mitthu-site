@@ -61,7 +61,7 @@
     <section class="section alt" id="how">
       <p class="eyebrow">How it works</p>
       <h2>From a chat to a<br><em>real reminder.</em></h2>
-      <p class="note dark-note">Text conversation works in the current build, which is not released yet: tap the face, then type. Nothing is saved or changed until you approve it on a card. So far it has been tried by hand on two phones.</p>
+      <p class="note dark-note">Text conversation works in the current build, which is not released yet: tap the face, then type. Nothing is saved or changed until you approve it on a card. So far it has been tried by hand on two phones, and the newest parts (weekend plans and memory) on one.</p>
       <ol class="steps">
         <li>
           <span class="step-n">1</span>
@@ -117,7 +117,7 @@
         <li>“Saturday looks free after lunch.”</li>
         <li>“You said you liked that walk by the lake.”</li>
       </ul>
-      <p class="note dark-note">Sample lines for tone, not real replies. Memory is not built yet. Real replies depend on the AI provider and model you pick, using your own API key.</p>
+      <p class="note dark-note">Sample lines for tone, not real replies. Mitthu only uses facts you saved in Memory, and only the ones you left switched on. Real replies depend on the AI provider and model you pick, using your own API key.</p>
     </section>
 
     <section class="section alt">
@@ -134,7 +134,7 @@
         </article>
         <article class="card">
           <h3>Your AI, your key</h3>
-          <p>Choose Gemini (the default), OpenAI, NVIDIA or OpenRouter in Settings. Your API key is stored encrypted on the phone and checked with the provider before it is saved. Mitthu sends your messages and your active chores' titles and schedules (not notes) to the provider you choose.</p>
+          <p>Choose Gemini (the default), OpenAI, NVIDIA or OpenRouter in Settings. Your API key is stored encrypted on the phone and checked with the provider before it is saved. Mitthu sends your messages, your active chores' titles and schedules (not notes) and the memory facts you've switched on to the provider you choose.</p>
         </article>
         <article class="card">
           <h3>History stays on your phone</h3>
@@ -142,11 +142,11 @@
         </article>
         <article class="card">
           <h3>Export &amp; import your data</h3>
-          <p>Save your chores, which ones you have done, your open reminders and your weekend plans to a file you choose, and import it on another phone. Importing replaces everything on that phone, after two confirmations; Mitthu keeps a safety copy of what was there first, so you can undo the last import. A damaged or newer file changes nothing. The file isn't encrypted, so keep it somewhere private. It never contains your API keys or chat history.</p>
+          <p>Save your chores, which ones you have done, your open reminders, your weekend plans and your saved memory to a file you choose, and import it on another phone. Importing replaces everything on that phone, after two confirmations; Mitthu keeps a safety copy of what was there first, so you can undo the last import. A damaged or newer file changes nothing. The file isn't encrypted, so anyone who has it can read your chores, plans and memory: keep it somewhere private. It never contains your API keys or chat history.</p>
         </article>
         <article class="card">
           <h3>Works without the AI</h3>
-          <p>With no AI or key, chores still work through the forms.</p>
+          <p>With no AI or key, chores, weekend plans and memory still work through the forms.</p>
         </article>
         <article class="card">
           <h3>Weekend plans</h3>
@@ -154,7 +154,7 @@
         </article>
         <article class="card">
           <h3>Memory</h3>
-          <p>Planned. Let Mitthu remember only what you choose to save.</p>
+          <p>Mitthu saves a fact only when you approve its suggestion in chat or type one yourself. Each fact has a “Use in replies” switch: every fact switched on is sent to your AI provider with each message, up to 50, and one switched off is never sent. You can edit or delete any fact. Deleting a fact on your phone stops it being used right away, but can't recall what was already sent to the provider. Mitthu never collects memory in the background.</p>
         </article>
         <article class="card">
           <h3>Voice, later</h3>
@@ -171,8 +171,8 @@
         <li><strong>M1</strong><span>App foundation, design system and chore forms</span><em>Built</em></li>
         <li><strong>M2</strong><span>Dependable chore loop: repeat, snooze, complete</span><em>Built</em></li>
         <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Conversation, chat edits and history built · Streaming deferred</em></li>
-        <li class="now"><strong>M4</strong><span>Export and import, weekend plans and approved memory</span><em>Export, import and planner built · Memory next</em></li>
-        <li><strong>M5</strong><span>Optional voice and a personal pilot</span></li>
+        <li><strong>M4</strong><span>Export and import, weekend plans and approved memory</span><em>Built · Not yet checked on a vivo phone</em></li>
+        <li class="now"><strong>M5</strong><span>Pilot preparation, then optional voice</span><em>Next</em></li>
       </ol>
     </section>
 
