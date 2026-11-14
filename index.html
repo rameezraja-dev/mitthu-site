@@ -93,7 +93,7 @@
           <button type="button" data-state="thinking" aria-pressed="false">Thinking</button>
           <button type="button" data-state="speaking" aria-pressed="false">Speaking</button>
         </div>
-        <p class="note">An animation preview, not the running app. Listening and Speaking arrive with voice.</p>
+        <p class="note">An animation preview, not the running app. Listening arrives with voice; the app already shows Speaking while a reply arrives.</p>
       </div>
       <div class="device-wrap">
         <div class="device big is-sleeping" data-face data-demo>
@@ -157,6 +157,11 @@
           <p>Mitthu saves a fact only when you approve its suggestion in chat or type one yourself. Each fact has a “Use in replies” switch: every fact switched on is sent to your AI provider with each message, up to 50, and one switched off is never sent. You can edit or delete any fact. Deleting a fact on your phone stops it being used right away, but can't recall what was already sent to the provider. Mitthu never collects memory in the background.</p>
         </article>
         <article class="card">
+          <h3>Replies as they arrive</h3>
+          <p>Reply text appears as it arrives. Approval cards wait for the complete checked response. If a provider cannot stream, Mitthu tries a regular reply, except when your key is refused, the model is missing or the provider's limit is reached, which Mitthu reports straight away. Stop and leaving chat discard queued reply previews. Streaming and TalkBack still need a vivo phone check.</p>
+          <p>Your last message stays visible above Mitthu's reply, and the face speaks while a reply arrives. A visible Menu link at the top left opens all features, and sending a message or approving a card gives a light tick. These are built and unit-tested but not yet checked on a phone.</p>
+        </article>
+        <article class="card">
           <h3>Voice, later</h3>
           <p>Planned. Push-to-talk and spoken replies, with typing always available.</p>
         </article>
@@ -170,9 +175,9 @@
         <li><strong>M0</strong><span>Prove reminders arrive on real Android devices</span><em>Most checks pass on a vivo phone · one check open</em></li>
         <li><strong>M1</strong><span>App foundation, design system and chore forms</span><em>Built</em></li>
         <li><strong>M2</strong><span>Dependable chore loop: repeat, snooze, complete</span><em>Built</em></li>
-        <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Conversation, chat edits and history built · Streaming deferred</em></li>
+        <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Conversation, chat edits, history, streaming and talk screen polish built · Device check pending</em></li>
         <li><strong>M4</strong><span>Export and import, weekend plans and approved memory</span><em>Built · Not yet checked on a vivo phone</em></li>
-        <li class="now"><strong>M5</strong><span>Pilot preparation: local diagnostics built; device checks pending. Times, event codes, chore and reminder numbers, the AI provider and response time stay on the phone until you choose Share diagnostics in Settings; no message, chore or memory text or keys are logged. The pilot has not started.</span><em>Started</em></li>
+        <li class="now"><strong>M5</strong><span>Pilot preparation: local diagnostics built; device checks pending. Times, event codes, chore and reminder numbers, the AI provider, response time, and whether a reply arrived as a stream or needed a second request (with how many updates it showed) stay on the phone until you choose Share diagnostics in Settings; no message, chore or memory text or keys are logged. The pilot has not started.</span><em>Started</em></li>
       </ol>
     </section>
 
