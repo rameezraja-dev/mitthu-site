@@ -66,7 +66,7 @@
         <li>
           <span class="step-n">1</span>
           <h3>You say it</h3>
-          <p>“Remind me to water the plants every Sunday morning.” Tap the face and type it, or tap the mic button on Android 12 or later and talk. Your words appear as you speak. Review them, then tap Send.</p>
+          <p>“Remind me to water the plants every Sunday morning.” Tap the face and type it, or tap the mic button on Android 12 or later and talk. Your words appear as you speak. Review them, then tap Send. Or start hands-free and just talk: that sends what you say when you pause, with no review step.</p>
         </li>
         <li>
           <span class="step-n">2</span>
@@ -163,7 +163,11 @@
         </article>
         <article class="card">
           <h3>Voice, built · owner-reported on two phones, checks incomplete</h3>
-          <p>Voice input uses Android's on-device speech recogniser and needs Android 12 or later with the offline speech pack installed; otherwise the mic button is hidden and Settings says why. Tap the mic button once and talk: your words appear in the message box as you speak, and listening ends when you pause, or at 30 seconds. Review the text, then tap Send; nothing is sent without Send. Audio stays on the phone. The text of what you said goes to your chosen AI provider like a typed message. Typing always works. Replies to spoken messages are read aloud with an offline voice, except while TalkBack is on; typed replies are read only if you switch that on in Settings, and Settings says why reading is not possible. The owner reports the main voice steps and read-aloud work on their vivo and their Xiaomi Mi A3 (their own report, not an independent test); busy microphone, denied permission, background use, the 30 second limit, TalkBack, large text, diagnostics sharing and licences are still to be checked. Read-aloud needs a text-to-speech engine, such as Speech Services by Google, and some phones ship without one.</p>
+          <p>Voice input uses Android's on-device speech recogniser and needs Android 12 or later with the offline speech pack installed; otherwise the mic button is hidden and Settings says why. Tap the mic button once and talk: your words appear in the message box as you speak, and listening ends when you pause, or at 30 seconds. With the mic button, review the text, then tap Send; nothing is sent without Send (hands-free, below, is different). Audio stays on the phone. With the mic button the text of what you said goes to your chosen AI provider like a typed message, after Send. Typing always works. Replies to spoken messages are read aloud with an offline voice, except while TalkBack is on; typed replies are read only if you switch that on in Settings, and Settings says why reading is not possible. The owner reports the main voice steps and read-aloud work on their vivo and their Xiaomi Mi A3 (their own report, not an independent test); busy microphone, denied permission, background use, the 30 second limit, TalkBack, large text, diagnostics sharing and licences are still to be checked. Read-aloud needs a text-to-speech engine, such as Speech Services by Google, and some phones ship without one.</p>
+        </article>
+        <article class="card">
+          <h3>Hands-free, built · owner reports it works on one phone</h3>
+          <p>In talk mode a Hands-free button starts a conversation without taps: Mitthu listens, sends what you say when you pause, reads its reply aloud, then listens again. The microphone is never open while Mitthu speaks, the listening state is always visible, and the screen stays on. In hands-free, the text of what you said goes to your AI provider without a review step; audio stays on the phone. A single word is not sent (Mitthu says "Say a little more."), and approval cards always need a tap: listening pauses until you answer, and the session ends if a card waits a minute. It also ends when you tap End hands-free, tap into the message box, leave the Home screen, switch apps, take a call, or stay silent for 20 seconds, and it always says why. It is unavailable while TalkBack is on, without an offline read-aloud voice, without the on-device recogniser, or below Android 12. It is covered by unit tests, and the owner reports (2026-11-18, their own report, not an independent test) that it works on their vivo. The individual checks were not reported one by one, it has not been tried on the Xiaomi Mi A3, and the battery cost and how it copes with a television or podcast nearby are not measured.</p>
         </article>
       </div>
     </section>
@@ -175,7 +179,7 @@
         <li><strong>M0</strong><span>Prove reminders arrive on real Android devices</span><em>Most checks pass on a vivo phone · one check open</em></li>
         <li><strong>M1</strong><span>App foundation, design system and chore forms</span><em>Built</em></li>
         <li><strong>M2</strong><span>Dependable chore loop: repeat, snooze, complete</span><em>Built</em></li>
-        <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Conversation, chat edits, history, streaming and talk screen polish built · Device check pending</em></li>
+        <li class="now"><strong>M3</strong><span>Companion face and text conversation</span><em>Conversation, chat edits, history, streaming, talk screen polish and hands-free built · Hands-free reported working on the vivo, Mi A3 not done</em></li>
         <li><strong>M4</strong><span>Export and import, weekend plans and approved memory</span><em>Built · Not yet checked on a vivo phone</em></li>
         <li class="now"><strong>M5</strong><span>Pilot preparation: local diagnostics built; device checks pending. Times, event codes, chore and reminder numbers, the AI provider, response time, and whether a reply arrived as a stream or needed a second request (with how many updates it showed), plus microphone and speech events with their durations, never what was said, stay on the phone until you choose Share diagnostics in Settings; no message, chore or memory text or keys are logged. The pilot has not started.</span><em>Started</em></li>
       </ol>
